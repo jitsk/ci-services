@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "host": "http://staging-geocoder.centralindex.com"
+  },
+  "staging": {
+    "host": "http://staging-geocoder.centralindex.com"
+  },
+  "production": {
+    "host": "http://geocoder.centralinex.com"
+  },
+  "sandbox": {
+    "host": "http://geocoder.centralinex.com"
+  }
+}

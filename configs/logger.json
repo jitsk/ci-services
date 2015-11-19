@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "host": ""
+  },
+  "staging": {
+    "host": ""
+  },
+  "production": {
+    "host": ""
+  },
+  "sandbox": {
+    "host": ""
+  }
+}
