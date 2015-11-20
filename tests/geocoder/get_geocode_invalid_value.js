@@ -6,7 +6,7 @@ var geocoder = services.geocoder;
 
 describe('GET /geocode/address', function() {
 
-  it('should Fail because we are sending to an endpoint that is unknown', function(done) {
+  it('should Fail because we are sending a bad value', function(done) {
 
     // parameters
     var opts = {
