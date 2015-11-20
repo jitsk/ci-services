@@ -11,4 +11,10 @@ module.exports = function(method, endpoint, opts, callback) {
 
   // 2. Return the response
 
+  curl(method, config.host + endpoint, opts, function(err, data) {
+
+    return callback(err, data);
+
+  })
+
 }
