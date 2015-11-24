@@ -1,6 +1,6 @@
 {
   "dev": {
-    "host": "http://staging-geocoder.centralindex.com"
+    "host": "http://localhost:5000"
   },
   "staging": {
     "host": "http://staging-geocoder.centralindex.com"
