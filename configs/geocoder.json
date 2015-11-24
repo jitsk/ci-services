@@ -1,9 +1,9 @@
 {
   "dev": {
-    "host": "http://localhost:5000"
+    "host": "http://staging-geocoder.centralindex.com:5000"
   },
   "staging": {
-    "host": "http://staging-geocoder.centralindex.com"
+    "host": "http://staging-geocoder.centralindex.com:5000"
   },
   "production": {
     "host": "http://geocoder.centralinex.com"
