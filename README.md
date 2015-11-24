@@ -1,5 +1,5 @@
 # CI Services
-A collection of API wrappers around the CI Micro Services.
+A collection of API wrappers around the CI Micro Services. It should respect the --env parameter used in the parent app.
 
 ## Geocoder
 API documentation is [here](https://docs.google.com/document/d/1HYU0-k0JdtyEjuGLFZR-kkR_qfXWUR2RrmkpiH0iWx0/edit).
