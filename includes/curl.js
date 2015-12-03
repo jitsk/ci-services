@@ -19,6 +19,8 @@ module.exports = function(method, endpoint, opts, callback) {
   var _ = require('underscore');
   var request = require('request');
   var logger = require('./logger.js');
+  var crypto = require('crypto'),
+  var hostname  = require('os').hostname();
 
   // did we get passed too few params?
   if (_.isFunction(params)) {
@@ -46,6 +48,16 @@ module.exports = function(method, endpoint, opts, callback) {
 
     params.form = opts;
 
+  }
+
+  // add in our auth headers
+  var header_hash = crypto.createHash('md5');
+  header_hash.update("d3c1a83f6330cc73e5a726481f7c7abc"+hostname);
+  var hash = header_hash.digest('hex');
+
+  params.headers = {
+    ciauth: hash,
+    cihost: hostname
   }
 
   request(params, function(e, r, b) {
