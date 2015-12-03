@@ -19,7 +19,7 @@ module.exports = function(method, endpoint, opts, callback) {
   var _ = require('underscore');
   var request = require('request');
   var logger = require('./logger.js');
-  var crypto = require('crypto'),
+  var crypto = require('crypto');
   var hostname  = require('os').hostname();
 
   // did we get passed too few params?
