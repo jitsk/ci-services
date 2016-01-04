@@ -4,9 +4,9 @@ var should = require('should');
 var services = require('../../main.js');
 var geocoder = services.geocoder;
 
-describe('GET /geocode/address', function() {
+describe('GET /geocode/address1', function() {
 
-  it('should Fail because we are sending to an endpoint that is unknown', function(done) {
+  it('should fail because we are sending to an endpoint that is unknown', function(done) {
 
     // parameters
     var opts = {
@@ -19,7 +19,7 @@ describe('GET /geocode/address', function() {
 
     geocoder("get", "/geocode/address1", opts, function(err, data) {
 
-      // make sure we don't have an error
+      // make sure we have an error
       err.should.be.a.String;
 
       done();

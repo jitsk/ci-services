@@ -1,9 +1,9 @@
-// Wrapper around the Geocoder microservice
+// Wrapper around the ncrypt microservice
 
 module.exports = function(method, endpoint, opts, callback) {
   
   var _ 			= require('underscore');
-  var config 	= require('./config.js')('geocoder');
+  var config 	= require('./config.js')('ncrypt');
   var curl 		= require('./curl.js');
 
   // 1. Make a request to 'endpoint' on config.host
@@ -15,6 +15,6 @@ module.exports = function(method, endpoint, opts, callback) {
 
     return callback(err, data);
 
-  })
+  });
 
 }
