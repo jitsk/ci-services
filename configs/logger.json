@@ -1,14 +1,14 @@
 {
   "dev": {
-    "host": ""
+    "host": "http://localhost:1066"
   },
   "staging": {
-    "host": ""
+    "host": "http://logger.centralindex.com:5001"
   },
   "production": {
-    "host": ""
+    "host": "http://logger.centralindex.com:5001"
   },
   "sandbox": {
-    "host": ""
+    "host": "http://logger.centralindex.com:5001"
   }
 }
