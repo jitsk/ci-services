@@ -1,14 +1,14 @@
 {
   "dev": {
-    "host": "http://staging-ncrypt.centralindex.com:5001"
+    "host": "https://staging-ncrypt.centralindex.com:5001"
   },
   "staging": {
-    "host": "http://staging-ncrypt.centralindex.com:5001"
+    "host": "https://staging-ncrypt.centralindex.com:5001"
   },
   "production": {
-    "host": "http://ncrypt.centralinex.com"
+    "host": "https://ncrypt.centralinex.com"
   },
   "sandbox": {
-    "host": "http://ncrypt.centralinex.com"
+    "host": "https://ncrypt.centralinex.com"
   }
 }
