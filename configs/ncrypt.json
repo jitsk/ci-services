@@ -6,7 +6,7 @@
     "host": "https://staging-ncrypt.centralindex.com:5001"
   },
   "production": {
-    "host": "https://ncrypt.centralidnex.com"
+    "host": "https://ncrypt.centralindex.com"
   },
   "sandbox": {
     "host": "https://ncrypt.centralindex.com"
