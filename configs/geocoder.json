@@ -6,9 +6,9 @@
     "host": "http://staging-geocoder.centralindex.com:5000"
   },
   "production": {
-    "host": "http://geocoder.centralinex.com"
+    "host": "http://geocoder.centralindex.com:80"
   },
   "sandbox": {
-    "host": "http://geocoder.centralinex.com"
+    "host": "http://geocoder.centralindex.com:80"
   }
 }
