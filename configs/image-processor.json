@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "host": "http://staging-image-processor.centralindex.com"
+  },
+  "staging": {
+    "host": "http://staging-image-processor.centralindex.com"
+  },
+  "production": {
+    "host": "http://image-processor.centralindex.com"
+  },
+  "sandbox": {
+    "host": "http://sandox-image-processor.centralindex.com"
+  }
+}
