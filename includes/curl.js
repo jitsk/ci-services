@@ -17,6 +17,7 @@ module.exports = function(method, endpoint, opts, callback) {
   //    as the data (error is null)
 
   var _ = require('underscore');
+  var fs = require('fs');
   var request = require('request');
   var logger = require('./logger.js');
   var crypto = require('crypto');
@@ -36,8 +37,16 @@ module.exports = function(method, endpoint, opts, callback) {
     url: endpoint
   }
 
+  // is this a file being sent?
+  if (_.isString(opts.filedata)) {
+
+    params.formData = opts;
+    params.formData.filedata = fs.createReadStream(params.formData.filedata);
+
+  }
+
   // do we need to add in the qs
-  if (_.isObject(opts) && method.toLowerCase() === "get") {
+  else if (_.isObject(opts) && method.toLowerCase() === "get") {
 
     params.qs = opts;
 
@@ -49,6 +58,8 @@ module.exports = function(method, endpoint, opts, callback) {
     params.form = opts;
 
   }
+
+
 
   // add in our auth headers
   var header_hash = crypto.createHash('md5');
