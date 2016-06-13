@@ -28,7 +28,7 @@ API documentation is [here](https://docs.google.com/document/d/1H1iNuyHIzBRw42Cs
 
 ```
 var Services = require('ci-services');
-var image-processor = Services.image_processor;
+var image_processor = Services.image_processor;
 var fs = require('fs');
 var image = fs.readFileSync('/path/to/image/hello.jpg');
 
@@ -37,7 +37,7 @@ var opts = {
   max_size: "666"
 }
 
-image-processor("post", "/image/resize", opts, function(err, data) {
+image_processor("post", "/image/resize", opts, function(err, data) {
 
   // do something
 

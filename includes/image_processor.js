@@ -3,7 +3,7 @@
 module.exports = function(method, endpoint, opts, callback) {
   
   var _ 			= require('underscore');
-  var config 	= require('./config.js')('image-processor');
+  var config 	= require('./config.js')('image_processor');
   var curl 		= require('./curl.js');
 
   // 1. Make a request to 'endpoint' on config.host
