@@ -3,5 +3,5 @@ module.exports = {
   geocoder: require('./includes/geocoder.js'),
   ncrypt: require('./includes/ncrypt.js'),
   logger: require('./includes/logger.js'),
-  images: require('./includes/image_processor.js')
+  image_processor: require('./includes/image_processor.js')
 }

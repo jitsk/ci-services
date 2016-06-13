@@ -28,7 +28,7 @@ API documentation is [here](https://docs.google.com/document/d/1H1iNuyHIzBRw42Cs
 
 ```
 var Services = require('ci-services');
-var image_processor = Services.images;
+var image_processor = Services.image_processor;
 var fs = require('fs');
 var image = fs.readFileSync('/path/to/image/hello.jpg');
 
