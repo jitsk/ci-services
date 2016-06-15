@@ -11,10 +11,16 @@ module.exports = function(method, endpoint, opts, callback) {
 
   // 2. Return the response
 
-  curl(method, config.host + endpoint, opts, function(err, data) {
+   curl(method, config.host + endpoint, opts, function(err, data) {
+  
+    if (!_.isNull(err)) {   
+    	return callback((!_.isUndefined(err.errors))?err.errors:["Problem with image processor response"], null);
+    } else if (!_.isNull(data)) {
+      return callback(null, (!_.isUndefined(data.data))?data.data:{});
+    } else {
+      return callback(["Problem with response from image processor"],null);
+    }
 
-    return callback(err, data);
-
-  })
+  });
 
 }
