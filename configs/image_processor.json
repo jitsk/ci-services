@@ -9,6 +9,6 @@
     "host": "http://image-processor.centralindex.com"
   },
   "sandbox": {
-    "host": "http://sandox-image-processor.centralindex.com"
+    "host": "http://sandbox-image-processor.centralindex.com"
   }
 }
