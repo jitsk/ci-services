@@ -1,4 +1,7 @@
 {
+  "vagrant": {
+    "host": "http://localhost:1066"
+  },
   "dev": {
     "host": "http://localhost:1066"
   },
