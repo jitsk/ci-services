@@ -1,4 +1,7 @@
 {
+  "vagrant": {
+    "host": "http://staging-image-processor.centralindex.com"
+  },
   "dev": {
     "host": "http://staging-image-processor.centralindex.com"
   },

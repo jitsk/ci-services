@@ -1,4 +1,7 @@
 {
+  "vagrant": {
+    "host": "https://staging-ncrypt.centralindex.com:5001"
+  },
   "dev": {
     "host": "https://staging-ncrypt.centralindex.com:5001"
   },
