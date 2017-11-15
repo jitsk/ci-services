@@ -1,4 +1,7 @@
 {
+  "vagrant": {
+    "host": "http://staging-geocoder.centralindex.com:5000"
+  },
   "dev": {
     "host": "http://staging-geocoder.centralindex.com:5000"
   },
