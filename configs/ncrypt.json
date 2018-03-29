@@ -3,10 +3,10 @@
     "host": "https://staging-ncrypt.centralindex.com:5001"
   },
   "dev": {
-    "host": "https://staging-ncrypt.centralindex.com:5001"
+    "host": "http://staging-ncrypt.centralindex.com:5001"
   },
   "staging": {
-    "host": "https://staging-ncrypt.centralindex.com:5001"
+    "host": "http://staging-ncrypt.centralindex.com:5001"
   },
   "production": {
     "host": "https://ncrypt.centralindex.com"
