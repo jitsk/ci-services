@@ -11,6 +11,9 @@
   "production": {
     "host": "http://geocoder.centralindex.com:80"
   },
+  "productionhotfrog": {
+    "host": "http://geocoder.centralindex.com:80"
+  },
   "sandbox": {
     "host": "http://geocoder.centralindex.com:80"
   }

@@ -11,6 +11,9 @@
   "production": {
     "host": "http://image-processor.centralindex.com"
   },
+  "productionhotfrog": {
+    "host": "http://image-processor.centralindex.com"
+  },
   "sandbox": {
     "host": "http://sandbox-image-processor.centralindex.com"
   }

@@ -11,6 +11,9 @@
   "production": {
     "host": "http://logger.centralindex.com:5001"
   },
+  "productionhotfrog": {
+    "host": "http://logger.centralindex.com:5001"
+  },
   "sandbox": {
     "host": "http://logger.centralindex.com:5001"
   }
