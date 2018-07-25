@@ -11,6 +11,9 @@
   "production": {
     "host": "https://ncrypt.centralindex.com"
   },
+  "productionhotfrog": {
+    "host": "https://ncrypt.centralindex.com"
+  },
   "sandbox": {
     "host": "https://ncrypt.centralindex.com"
   }
